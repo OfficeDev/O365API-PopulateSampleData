@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Contacts>
+  <Action>
+    <ActionName>ADD</ActionName>
+    <!--<ActionName>UPDATE</ActionName>-->
+    <!--<ActionName>DELETE</ActionName>-->
+  </Action>
+
+  <Contact>
+    <AssistantName>1AssistantName</AssistantName>
+    <BusinessHomePage>http://www.microsoft.com/</BusinessHomePage>
+    <CompanyName>1CompanyName</CompanyName>
+    <Department>1Department</Department>
+    <DisplayName>1DisplayName</DisplayName>
+    <EmailAddresses>
+      <EmailAddress>1@ms.com</EmailAddress>
+      <EmailAddress>11@ms.com</EmailAddress>
+    </EmailAddresses>
+    <FileAs>1FileAs</FileAs>
+    <Generation>1Generation</Generation>
+    <GivenName>1GivenName</GivenName>
+    <Initials>1Initials</Initials>
+    <JobTitle>1JobTitle</JobTitle>
+    <Manager>1Manager</Manager>
+    <MiddleName>1MiddleName</MiddleName>
+    <MobilePhone1>1MobilePhone1</MobilePhone1>
+    <NickName>1NickName</NickName>
+    <OfficeLocation>1OfficeLocation</OfficeLocation>
+    <Profession>1Profession</Profession>
+    <Surname>1Surname</Surname>
+  </Contact>
+
+  <Contact>
+    <AssistantName>0AssistantName</AssistantName>
+    <BusinessHomePage>http://www.microsoft.com/</BusinessHomePage>
+    <CompanyName>0CompanyName</CompanyName>
+    <Department>0Department</Department>
+    <DisplayName>0DisplayName</DisplayName>
+    <EmailAddresses>
+      <EmailAddress>11@ms.com</EmailAddress>
+      <EmailAddress>111@ms.com</EmailAddress>
+    </EmailAddresses>
+    <FileAs>0FileAs</FileAs>
+    <Generation>0Generation</Generation>
+    <GivenName>0GivenName</GivenName>
+    <Initials>0Initials</Initials>
+    <JobTitle>0JobTitle</JobTitle>
+    <Manager>0Manager</Manager>
+    <MiddleName>0MiddleName</MiddleName>
+    <MobilePhone1>0MobilePhone1</MobilePhone1>
+    <NickName>0NickName</NickName>
+    <OfficeLocation>0OfficeLocation</OfficeLocation>
+    <Profession>0Profession</Profession>
+    <Surname>0Surname</Surname>
+  </Contact>
+
+</Contacts>

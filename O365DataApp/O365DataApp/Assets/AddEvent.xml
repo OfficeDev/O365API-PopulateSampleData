@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Events>
+  <Action>
+    <ActionName>ADD</ActionName>
+    <!--<ActionName>UPDATE</ActionName>-->
+    <!--<ActionName>DELETE</ActionName>-->
+  </Action>
+
+  <Event>
+    <Attendees>
+      <Attendee>rohiagra@napaprod11.onmicrosoft.com</Attendee>
+      <Attendee>rohiagra@microsoft.com</Attendee>
+    </Attendees>
+    <Body>1 Hey this is the body</Body>
+    <BodyPreview>Hey</BodyPreview>
+    <Location>25/3065</Location>
+    <Organizer>rohiagra@napaprod11.onmicrosoft.com</Organizer>
+    <Subject>Cool Subject</Subject>
+  </Event>
+
+  <Event>
+    <Attendees>
+      <Attendee>rohiagra@napaprod11.onmicrosoft.com</Attendee>
+    </Attendees>
+    <Body>2 Hey this is the body</Body>
+    <BodyPreview>2Hey</BodyPreview>
+    <Location>25/3065</Location>
+    <Organizer>rohiagra@napaprod11.onmicrosoft.com</Organizer>
+    <Subject>2 Cool Subject</Subject>
+  </Event>
+
+</Events>

@@ -1,0 +1,12 @@
+﻿<Application
+    x:Class="O365DataApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:O365DataApp">
+    <Application.Resources>
+        <x:String x:Key="ida:ClientID">386b8f2b-17aa-4696-88c0-ccf35184f27e</x:String>
+    
+        <x:String x:Key="ida:AuthorizationUri">https://login.windows.net</x:String>
+    </Application.Resources>
+
+</Application>

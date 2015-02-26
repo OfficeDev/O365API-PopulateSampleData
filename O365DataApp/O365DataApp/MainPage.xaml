@@ -1,0 +1,61 @@
+﻿<Page x:Name="page"
+    x:Class="O365DataApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:O365DataApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical" Margin="20,40,20,40">
+            <TextBlock FontSize="30">
+                Office 365 API
+            </TextBlock>
+
+            <Button x:Name="btnLogout" Content="Logout" Width="180" Height="50" Margin="0,20,0,0" Click="btnLogout_Click"/>
+
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnGetMyFiles" Content="Add MyFiles" Width="180" Height="50" Margin="0,20,0,0" Click="btnGetMyFiles_Click"/>
+                <Button x:Name="btnGetMyContacts" Content="Contacts" Width="180" Height="50" Margin="0,20,0,0" Click="btnGetMyContacts_Click"/>
+                <Button x:Name="btnGetMyEvents" Content="Events" Width="180" Height="50" Margin="0,20,0,0" Click="btnGetMyEvents_Click"/>
+                <Button x:Name="btnGetMyMails" Content="Mails" Width="180" Height="50" Margin="0,20,0,0" Click="btnGetMyMails_Click"/>
+            </StackPanel>
+
+            <TextBlock x:Name="loadingTxtBlock" Margin="0,20,0,0" HorizontalAlignment="Center" FontSize="20"></TextBlock>
+
+            <ListBox x:Name="lstMyFiles" Height="Auto" Width="Auto" Margin="0,20,0,0" ItemsSource="{Binding Files, ElementName=page}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}" Margin="4"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <ListBox x:Name="lstMyContacts" Height="Auto" Width="Auto" Margin="0,20,0,0" ItemsSource="{Binding Contacts, ElementName=page}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}" Margin="4"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <ListBox x:Name="lstMyEvents" Height="Auto" Width="Auto" Margin="0,20,0,0" ItemsSource="{Binding Events, ElementName=page}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Subject}" Margin="4"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <ListBox x:Name="lstMyMails" Height="Auto" Width="Auto" Margin="0,20,0,0" ItemsSource="{Binding Mails, ElementName=page}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Subject}" Margin="4"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+        </StackPanel>
+    </Grid>
+</Page>

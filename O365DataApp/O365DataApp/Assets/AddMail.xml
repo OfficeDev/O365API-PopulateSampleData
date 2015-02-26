@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Messages>
+  <Action>
+    <ActionName>ADD</ActionName>
+  </Action>
+
+  <Message>
+    <BccRecipients>
+      <BccRecipient>rohit489@gmail.com</BccRecipient>
+      <BccRecipient>rohit_489@yahoo.co.in</BccRecipient>
+    </BccRecipients>
+    <Body>hello how are you. are u ready for it</Body>
+    <BodyPreview>hey</BodyPreview>
+    <CcRecipients>
+      <CcRecipient>rohiagra@napaprod11.onmicrosoft.com</CcRecipient>
+    </CcRecipients>
+    <Subject>wazzzup</Subject>
+    <ToRecipients>
+      <ToRecipient>rohiagra@microsoft.com</ToRecipient>
+      <ToRecipients></ToRecipients>
+    </ToRecipients>
+  </Message>
+
+  <Message>
+    <BccRecipients>
+      <BccRecipient>rohit489@gmail.com</BccRecipient>
+      <BccRecipient>rohit_489@yahoo.co.in</BccRecipient>
+    </BccRecipients>
+    <Body>hello how are you. are u ready for it</Body>
+    <BodyPreview>hey</BodyPreview>
+    <CcRecipients>
+      <CcRecipient>rohiagra@napaprod11.onmicrosoft.com</CcRecipient>
+    </CcRecipients>
+    <Subject>Yo</Subject>
+    <ToRecipients>
+      <ToRecipient>rohiagra@microsoft.com</ToRecipient>
+      <ToRecipients></ToRecipients>
+    </ToRecipients>
+  </Message>
+
+</Messages>
