@@ -7,7 +7,8 @@ You can find the XML files for contacts, events and mail under the Assets folder
 - [AddContact.xml](https://github.com/OfficeDev/O365API-PopulateSampleData/blob/master/O365DataApp/O365DataApp/Assets/AddContact.xml)
 - [AddEvent.xml](https://github.com/OfficeDev/O365API-PopulateSampleData/blob/master/O365DataApp/O365DataApp/Assets/AddEvent.xml)
 - [AddMail.xml](https://github.com/OfficeDev/O365API-PopulateSampleData/blob/master/O365DataApp/O365DataApp/Assets/AddMail.xml)
-- For Files, upload your documents to a folder of your choice in your development machine and use the app to select one or more of the documents to upload.
+
+For Files, upload your documents to a folder of your choice in your development machine and use the app to select one or more of the documents to upload.
 
 ## How To Run This Sample
 To run this sample, you need:
