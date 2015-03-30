@@ -113,8 +113,6 @@ namespace O365DataApp.Helpers
 
         public static async Task SignOutAsync()
         {
-            //await authContext.LogoutAsync(LastTenantId);
-            //authContext.TokenCache.Clear();
             ApplicationData.Current.LocalSettings.Values["TenantId"] = null;
             ApplicationData.Current.LocalSettings.Values["LastAuthority"] = null;
         }
