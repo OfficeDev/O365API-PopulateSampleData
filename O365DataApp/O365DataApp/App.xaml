@@ -4,7 +4,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:O365DataApp">
     <Application.Resources>
-        <x:String x:Key="ida:ClientID">Your Apps client ID</x:String>
     
         <x:String x:Key="ida:AuthorizationUri">https://login.windows.net</x:String>
     </Application.Resources>

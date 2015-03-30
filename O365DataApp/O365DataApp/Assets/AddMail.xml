@@ -6,35 +6,35 @@
 
   <Message>
     <BccRecipients>
-      <BccRecipient>rohit489@gmail.com</BccRecipient>
-      <BccRecipient>rohit_489@yahoo.co.in</BccRecipient>
+      <BccRecipient>tester2@testDomain.onmicrosoft.com</BccRecipient>
+      <BccRecipient>tester3@testDomain.onmicrosoft.com</BccRecipient>
     </BccRecipients>
     <Body>hello how are you. are u ready for it</Body>
     <BodyPreview>hey</BodyPreview>
     <CcRecipients>
-      <CcRecipient>rohiagra@napaprod11.onmicrosoft.com</CcRecipient>
+      <CcRecipient>tester1@testDomain.onmicrosoft.com</CcRecipient>
     </CcRecipients>
     <Subject>wazzzup</Subject>
     <ToRecipients>
-      <ToRecipient>rohiagra@microsoft.com</ToRecipient>
-      <ToRecipients></ToRecipients>
+      <ToRecipient>tester@testDomain.onmicrosoft.com</ToRecipient>
+      <ToRecipient></ToRecipient>
     </ToRecipients>
   </Message>
 
   <Message>
     <BccRecipients>
-      <BccRecipient>rohit489@gmail.com</BccRecipient>
-      <BccRecipient>rohit_489@yahoo.co.in</BccRecipient>
+      <BccRecipient>tester2@testDomain.onmicrosoft.com</BccRecipient>
+      <BccRecipient>tester3@testDomain.onmicrosoft.com</BccRecipient>
     </BccRecipients>
     <Body>hello how are you. are u ready for it</Body>
     <BodyPreview>hey</BodyPreview>
     <CcRecipients>
-      <CcRecipient>rohiagra@napaprod11.onmicrosoft.com</CcRecipient>
+      <CcRecipient>tester1@testDomain.onmicrosoft.com</CcRecipient>
     </CcRecipients>
     <Subject>Yo</Subject>
     <ToRecipients>
-      <ToRecipient>rohiagra@microsoft.com</ToRecipient>
-      <ToRecipients></ToRecipients>
+      <ToRecipient>tester@testDomain.onmicrosoft.com</ToRecipient>
+      <ToRecipient></ToRecipient>
     </ToRecipients>
   </Message>
 
