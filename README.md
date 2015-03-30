@@ -1,5 +1,13 @@
 # Populate Office 365 Tenant Account With Sample Data
-A Windows Store App that will populate data for Office 365 API services such as mail, calendar, contact and files. The app essentially read new contacts, mails and calendar events from a .xml file and add them to the logged in Office 365 tenant account. The app lets users add files to OneDrive through a file picker. This application can be used to add data only to one of the services (mail, calendar, contacts, files) as well. Existing data on the Office 365 tenant account will not be affected by this app.
+A Windows Store App that will populate data for Office 365 API services such as mail, calendar, contact and files. The app essentially reads new contacts, mails and calendar events from an XML file and add them to the logged in Office 365 user's account. Existing data on the Office 365 tenant account will not be affected by this app.
+
+You can use this app to quickly populate data into your Office 365 developer tenant so you can get started buidling Office 365 apps by interacting with the populated data. 
+
+You can find the XML files for contacts, events and mail under the Assets folder:
+- [AddContact.xml](https://github.com/OfficeDev/O365API-PopulateSampleData/blob/master/O365DataApp/O365DataApp/Assets/AddContact.xml)
+- [AddEvent.xml](https://github.com/OfficeDev/O365API-PopulateSampleData/blob/master/O365DataApp/O365DataApp/Assets/AddEvent.xml)
+- [AddMail.xml](https://github.com/OfficeDev/O365API-PopulateSampleData/blob/master/O365DataApp/O365DataApp/Assets/AddMail.xml)
+- For Files, upload your documents to a folder of your choice in your development machine and use the app to select one or more of the documents to upload.
 
 ## How To Run This Sample
 To run this sample, you need:
