@@ -38,7 +38,7 @@ Simply Build the project to restore NuGet packages.
 ### Register Azure AD application to consume Office 365 APIs
 Office 365 applications use Azure Active Directory (Azure AD) to authenticate and authorize users and applications respectively. All users, application registrations, permissions are stored in Azure AD.
 
-Using the Office 365 API Tool for Visual Studio you can configure your web application to consume Office 365 APIs.
+Using the Office 365 API Tool for Visual Studio you can configure your application to consume Office 365 APIs.
 
 1. In the Solution Explorer window, **right click your project -> Add -> Connected Service**.
 2. A Services Manager dialog box will appear. Choose **Office 365 -> Office 365 API** and click **Register your app**.
