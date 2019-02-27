@@ -1,3 +1,14 @@
+---
+topic: sample
+products:
+- OneDrive
+- Office 365
+languages:
+- C#
+extensions:
+  contentType: samples
+  createdDate: 2/26/2015 2:49:40 PM
+---
 # Populate Office 365 Developer Tenant With Sample Data
 A Windows Store App that will populate data for Office 365 API services such as mail, calendar, contact and files. The app essentially reads new contacts, mails and calendar events from an XML file and add them to the logged in Office 365 user's account. Existing data on the Office 365 tenant account will not be affected by this app.
 
