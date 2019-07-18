@@ -1,10 +1,10 @@
 ---
 topic: sample
 products:
-- OneDrive
-- Office 365
+- office-onedrive
+- office-365
 languages:
-- C#
+- csharp
 extensions:
   contentType: samples
   createdDate: 2/26/2015 2:49:40 PM
