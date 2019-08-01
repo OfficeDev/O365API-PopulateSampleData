@@ -1,15 +1,7 @@
----
-page_type: sample
-products:
-- office-onedrive
-- office-365
-languages:
-- csharp
-extensions:
-  contentType: samples
-  createdDate: 2/26/2015 2:49:40 PM
----
-# Populate Office 365 Developer Tenant With Sample Data
+# [ARCHIVED] Populate Office 365 Developer Tenant With Sample Data
+
+	**Note:** This repo is archived and no longer actively maintained. Security vulnerabilities may exist in the project, or its dependencies. If you plan to reuse or run any code from this repo, be sure to perform appropriate security checks on the code or dependencies first. Do not use this project as the starting point of a production Office Add-in. Always start your production code by using the Office/SharePoint development workload in Visual Studio, or the [Yeoman generator for Office Add-ins](https://github.com/OfficeDev/generator-office), and follow security best practices as you develop the add-in.
+
 A Windows Store App that will populate data for Office 365 API services such as mail, calendar, contact and files. The app essentially reads new contacts, mails and calendar events from an XML file and add them to the logged in Office 365 user's account. Existing data on the Office 365 tenant account will not be affected by this app.
 
 You can use this app to quickly populate data into your Office 365 developer tenant so you can get started buidling Office 365 apps by interacting with the populated data. 
